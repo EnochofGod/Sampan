@@ -107,7 +107,7 @@ export default function ApplicationForm() {
                   <p className="mt-1.5 text-xs text-ink-3">No active programs are available right now.</p>
                 ) : null}
               </div>
-              <div className="sm:col-span-2">
+              <div className="sm:col-span-2 mt-2">
                 <label htmlFor="qualification" className="field-label">Highest qualification</label>
                 <select id="qualification" name="qualification" value={formData.qualification} onChange={handleChange} required className="field-input">
                   <option value="">Select qualification</option>
