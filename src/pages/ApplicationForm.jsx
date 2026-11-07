@@ -79,8 +79,8 @@ export default function ApplicationForm() {
             </div>
           ) : null}
 
-          <form onSubmit={handleSubmit} className="space-y-5">
-            <div className="grid gap-5 sm:grid-cols-2">
+          <form onSubmit={handleSubmit} className="space-y-6">
+            <div className="grid gap-6 sm:grid-cols-2">
               <div className="sm:col-span-2">
                 <label htmlFor="fullName" className="field-label">Full name</label>
                 <input id="fullName" type="text" name="fullName" value={formData.fullName} onChange={handleChange} required autoComplete="name" className="field-input" />
